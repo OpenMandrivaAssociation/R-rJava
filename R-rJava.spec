@@ -47,3 +47,11 @@ xvfb-run %{_bindir}/R CMD check %{packname}
 %{rlibdir}/%{packname}/javadoc
 %{rlibdir}/%{packname}/jri
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9_3-1
++ Revision: 777807
+- Import R-rJava
+- Import R-rJava
+
