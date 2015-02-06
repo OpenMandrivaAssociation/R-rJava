@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.9.4
-Release:          2
+Release:          3
 Summary:          Low-level R to Java interface
 Group:            Sciences/Mathematics
 License:          GPL-2
