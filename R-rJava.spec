@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.9.4
-Release:          3
+Version:          0.9.6
+Release:          1
 Summary:          Low-level R to Java interface
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/rJava_0.9-4.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/rJava_0.9-6.tar.gz
 Requires:         R-methods
 Requires:         java
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
@@ -47,12 +47,3 @@ xvfb-run %{_bindir}/R CMD check %{packname}
 %{rlibdir}/%{packname}/javadoc
 %{rlibdir}/%{packname}/jri
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9_3-1
-+ Revision: 777807
-- Import R-rJava
-- Import R-rJava
-
-
